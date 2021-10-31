@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Test one",
+        "content": "This is the first test of the seed",
+        "user_id": 1
+    },
+    {
+        "title": "Test two",
+        "content": "This is the second test of the seed",
+        "user_id": 2
+    },
+    {
+        "title": "Test three",
+        "content": "This is the third test of the seed",
+        "user_id": 3
+    }
+]
