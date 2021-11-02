@@ -10,6 +10,7 @@
   
   ## Description  
   This is an example "Tech Blog" application. Users are able to see posts, sign up for an account, add their own posts, and add comments to other posts. 
+![snapshot](https://user-images.githubusercontent.com/89880190/139798478-ce3d4afa-018d-4203-99fe-9d1d588810bc.png)
 
 
   ## Code Snippets
