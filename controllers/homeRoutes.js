@@ -71,6 +71,6 @@ router.get("/post/:id", async (req, res) => {
     console.log(err);
     res.status(500).json(err);
     }
-});
+}); //existing bug needs fixed
 
 module.exports = router;
