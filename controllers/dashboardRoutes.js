@@ -27,7 +27,7 @@ router.get("/", withAuth, async (req, res) => {
                 ]
             });
         const posts = allPosts.map(post => post.get({ plain: true }));
-        res.status(200).render("dashboard",  posts );
+        res.status(200).render("dashboard",  { posts, loggedIn: true });
     } catch (err) {
         console.log(err);
         res.status(500).json(err);
