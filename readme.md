@@ -126,7 +126,7 @@
   * [HANDLEBARS.JS](https://handlebarsjs.com/)
 
   ## Deployed Link
-* [See the Live Site!](https://tylerbyeager.github.io/Tech-Blog/) 
+* [See the Live Site!](https://tech-blog-1024.herokuapp.com) 
 
 ## Authors
 

@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const { User, Post, Comment } = require("../../models");
 const { update } = require('../../models/User');
-// const withAuth = require("../../utils/auth");
-//add with aut back into functions /:id and post
+const withAuth = require("../../utils/auth");
+
 router.get("/", async (req, res) => {
     try {
         const commentData = await Comment.findAll({});
@@ -30,7 +30,7 @@ router.get("/:id", async (req, res) => {
     }
 });
 
-router.post("/", async (req, res) => {
+router.post("/", withAuth, async (req, res) => {
     try {
         const newComment = await Comment.create(
             {
@@ -45,7 +45,7 @@ router.post("/", async (req, res) => {
     }
 });
 
-router.put("/:id", async (req, res) => {
+router.put("/:id", withAuth, async (req, res) => {
     try {
         const updateComment = await Comment.update(
             {
@@ -67,7 +67,7 @@ router.put("/:id", async (req, res) => {
     }
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", withAuth, async (req, res) => {
     try {
         const deleteComment = await Comment.destroy(
             {
