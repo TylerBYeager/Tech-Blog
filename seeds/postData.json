@@ -1,17 +1,17 @@
 [
     {
-        "title": "Test one",
-        "content": "This is the first test of the seed",
+        "title": "First Post",
+        "content": "Cats are better than dogs",
         "user_id": 1
     },
     {
-        "title": "Test two",
-        "content": "This is the second test of the seed",
+        "title": "Second Post",
+        "content": "Dogs are better than cats",
         "user_id": 2
     },
     {
-        "title": "Test three",
-        "content": "This is the third test of the seed",
+        "title": "Third Post",
+        "content": "Guinea Pigs are pretty sweet too.",
         "user_id": 3
     }
 ]

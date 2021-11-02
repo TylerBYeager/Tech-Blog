@@ -60,7 +60,6 @@ router.get("/post/:id", async (req, res) => {
             return;
         } else {
             const post = onePost.get({ plain: true});
-            console.log(post);
             res.status(200).render("one-post", post );
         }
     } catch (err) {

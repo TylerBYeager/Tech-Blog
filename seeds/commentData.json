@@ -1,16 +1,16 @@
 [
     {
-        "comment_text": "Wow the first comment!",
+        "comment_text": "I agree!",
         "user_id": 1,
         "post_id": 1
     },
     {
-        "comment_text": "Wow the second comment!",
+        "comment_text": "This is controversial!",
         "user_id": 2,
         "post_id": 2
     },
     {
-        "comment_text": "Wow the third comment!",
+        "comment_text": "Oink Oink!",
         "user_id": 3,
         "post_id": 3
     }
