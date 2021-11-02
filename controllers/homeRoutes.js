@@ -15,6 +15,10 @@ router.get("/", async (req, res) => {
                             model: User,
                             attributes: ["username"]
                         }
+                    },
+                    {
+                        model: User,
+                        attributes: ["username"]
                     }
                 ]
             });
@@ -65,7 +69,7 @@ router.get("/post/:id", async (req, res) => {
         } else {
             const post = onePost.get({ plain: true});
             console.log(post);
-            res.status(200).render("one-post", { post, loggedIn: req.session.loggedIn });
+            res.status(200).render("one-post", post );
         }
     } catch (err) {
     console.log(err);
